@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab7/mux_4bit_4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4bit_4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab7/mux_4bit_4to1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4bit_4to1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab7/lab7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

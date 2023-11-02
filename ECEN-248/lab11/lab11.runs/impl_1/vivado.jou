@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 14 11:09:57 2018
+# Process ID: 29517
+# Log file: /home/ugrads/d/dmimar382/ecen248/lab11/lab11.runs/impl_1/combination_lock.vdi
+# Journal file: /home/ugrads/d/dmimar382/ecen248/lab11/lab11.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source combination_lock.tcl -notrace

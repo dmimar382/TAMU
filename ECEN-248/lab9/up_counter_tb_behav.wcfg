@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bounce_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bounce_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/bounce_tb/Clk">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/bounce_tb/Bounced_BTN">
+      <obj_property name="ElementShortName">Bounced_BTN</obj_property>
+      <obj_property name="ObjectShortName">Bounced_BTN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/bounce_tb/LEDs">
+      <obj_property name="ElementShortName">LEDs[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDs[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/bounce_tb/Is_BTN_Pressed">
+      <obj_property name="ElementShortName">Is_BTN_Pressed</obj_property>
+      <obj_property name="ObjectShortName">Is_BTN_Pressed</obj_property>
+   </wvobject>
+</wave_config>

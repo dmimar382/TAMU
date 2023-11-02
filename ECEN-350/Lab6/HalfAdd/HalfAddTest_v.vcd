@@ -1,0 +1,94 @@
+$date
+	Mon Oct 12 13:39:10 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module HalfAddTest_v $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 8 % passed [7:0] $end
+$scope module dut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 " Cout $end
+$var wire 1 & O1 $end
+$var wire 1 ' O2 $end
+$var wire 1 ( O3 $end
+$var wire 1 ! Sum $end
+$upscope $end
+$scope task allPassed $end
+$var reg 8 ) numTests [7:0] $end
+$var reg 8 * passed [7:0] $end
+$upscope $end
+$scope task passTest $end
+$var reg 2 + actualOut [1:0] $end
+$var reg 2 , expectedOut [1:0] $end
+$var reg 8 - passed [7:0] $end
+$var reg 121 . testType [120:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+1(
+1'
+1&
+b0 %
+0$
+0#
+0"
+0!
+$end
+#100000
+b1 %
+b1 -
+b1100000010101100110000 .
+b0 ,
+b0 +
+#190000
+1!
+0(
+1$
+#200000
+b10 %
+b10 -
+b1100000010101100110001 .
+b1 ,
+b1 +
+#290000
+1(
+0'
+0$
+1#
+#300000
+b11 %
+b11 -
+b1100010010101100110000 .
+#390000
+0!
+1'
+1"
+0&
+1(
+1$
+#400000
+b100 %
+b100 -
+b1100010010101100110001 .
+b10 ,
+b10 +
+#490000
+b100 )
+b100 *

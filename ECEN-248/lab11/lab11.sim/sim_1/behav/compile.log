@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab11/combination_lock_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combination_lock_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab11/combination_lock_fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combination_lock_fsm_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab11/lab11.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

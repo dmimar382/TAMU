@@ -1,0 +1,31 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2020-11-24 20:50:21
+
+Elaboration top modules:
+Verilog Module                SingleCycleProcTest_v
+
+
+---------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+SingleCycleProcTest_v   | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+singlecycle             | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+NextPClogic             | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+InstructionMemory       | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+control                 | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+SignExtender            | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+ALU                     | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+RegisterFile            | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+DataMemory              | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

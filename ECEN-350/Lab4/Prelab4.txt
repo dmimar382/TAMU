@@ -1,0 +1,20 @@
+f:
+ADD X19, X1, #2 //b=k+2
+
+//allocate space on the stack 
+SUB SP, SP, #64 //space for 4 variables, each one takes 16 bytes 
+STUR X0, [SP,#0] //store n on the stack 
+STUR X1, [SP,#16] //store k on the stack
+STUR X19, [SP,#32] // store b on the stack
+STUR X30, [SP,#48] //store return register on the stack
+
+//checking the if condition
+CBNZ X0, ELSE // if n is not equal to 0,  go to else 
+//dropping into if statement 
+ORR X19, XZR, #8 // b = 8
+ADD X2, X19, X1 //return b + k 
+ADD SP, SP, #48 // pop
+BL FINISH
+
+ELSE:
+LSL X15, X0, #2 //multiply n by 4, store in temp variable

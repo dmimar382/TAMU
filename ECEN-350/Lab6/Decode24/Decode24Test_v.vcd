@@ -1,0 +1,85 @@
+$date
+	Mon Oct 12 14:19:46 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Decode24Test_v $end
+$var wire 4 ! out [3:0] $end
+$var reg 2 " in [1:0] $end
+$var reg 8 # passed [7:0] $end
+$scope module uut $end
+$var wire 2 $ in [1:0] $end
+$var reg 4 % out [3:0] $end
+$upscope $end
+$scope task allPassed $end
+$var reg 8 & numTests [7:0] $end
+$var reg 8 ' passed [7:0] $end
+$upscope $end
+$scope task passTest $end
+$var reg 4 ( actualOut [3:0] $end
+$var reg 4 ) expectedOut [3:0] $end
+$var reg 8 * passed [7:0] $end
+$var reg 121 + testType [120:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+b1 %
+b0 $
+b0 #
+b0 "
+b1 !
+$end
+#100000
+b1 #
+b1 *
+b1001001011011100111000001110101011101000010000000110000 +
+b1 )
+b1 (
+#190000
+b10 !
+b10 %
+b1 "
+b1 $
+#200000
+b10 #
+b10 *
+b1001001011011100111000001110101011101000010000000110001 +
+b10 )
+b10 (
+#290000
+b100 !
+b100 %
+b10 "
+b10 $
+#300000
+b11 #
+b11 *
+b1001001011011100111000001110101011101000010000000110010 +
+b100 )
+b100 (
+#390000
+b1000 !
+b1000 %
+b11 "
+b11 $
+#400000
+b100 #
+b100 *
+b1001001011011100111000001110101011101000010000000110011 +
+b1000 )
+b1000 (
+#490000
+b100 &
+b100 '

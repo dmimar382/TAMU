@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../block_carry_lookahead_unit.v"
+verilog xil_defaultlib  "../../../summation_unit.v"
+verilog xil_defaultlib  "../../../carry_lookahead_unit.v"
+verilog xil_defaultlib  "../../../generate_propagate_unit.v"
+verilog xil_defaultlib  "../../../carry_lookahead_16bit.v"
+verilog xil_defaultlib  "../../../cla_16bit_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

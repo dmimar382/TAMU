@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm.v" into library xil_defaultlib
+WARNING: [VRFC 10-999] macro name 1sec starting with a number violates Verilog syntax [/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm.v:4]
+WARNING: [VRFC 10-999] macro name 3sec starting with a number violates Verilog syntax [/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm.v:5]
+WARNING: [VRFC 10-999] macro name 15sec starting with a number violates Verilog syntax [/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm.v:6]
+WARNING: [VRFC 10-999] macro name 30sec starting with a number violates Verilog syntax [/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm.v:7]
+INFO: [VRFC 10-311] analyzing module tlc_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab12/tlc_fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlc_fsm_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab12/lab12.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

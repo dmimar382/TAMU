@@ -1,0 +1,177 @@
+#! /usr/bin/vvp
+:ivl_version "10.2 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x55856de150 .scope module, "HalfAddTest_v" "HalfAddTest_v" 2 26;
+ .timescale -9 -12;
+v0x5585744390_0 .var "A", 0 0;
+v0x5585744480_0 .var "B", 0 0;
+v0x5585744550_0 .net "Cout", 0 0, L_0x5585744be0;  1 drivers
+v0x5585744650_0 .net "Sum", 0 0, L_0x5585744a50;  1 drivers
+v0x5585744720_0 .var "passed", 7 0;
+S_0x55856de2d0 .scope task, "allPassed" "allPassed" 2 37, 2 37 0, S_0x55856de150;
+ .timescale -9 -12;
+v0x5585719a00_0 .var "numTests", 7 0;
+v0x5585743540_0 .var "passed", 7 0;
+TD_HalfAddTest_v.allPassed ;
+    %load/vec4 v0x5585743540_0;
+    %load/vec4 v0x5585719a00_0;
+    %cmp/e;
+    %jmp/0xz  T_0.0, 4;
+    %vpi_call 2 41 "$display", "All tests passed" {0 0 0};
+    %jmp T_0.1;
+T_0.0 ;
+    %vpi_call 2 42 "$display", "Some tests failed" {0 0 0};
+T_0.1 ;
+    %end;
+S_0x5585743620 .scope module, "dut" "HalfAdd" 2 61, 3 1 0, S_0x55856de150;
+ .timescale -9 -12;
+    .port_info 0 /OUTPUT 1 "Cout"
+    .port_info 1 /OUTPUT 1 "Sum"
+    .port_info 2 /INPUT 1 "A"
+    .port_info 3 /INPUT 1 "B"
+L_0x5585744810 .functor NAND 1, v0x5585744390_0, v0x5585744480_0, C4<1>, C4<1>;
+L_0x5585744920 .functor NAND 1, L_0x5585744810, v0x5585744390_0, C4<1>, C4<1>;
+L_0x55857449e0 .functor NAND 1, L_0x5585744810, v0x5585744480_0, C4<1>, C4<1>;
+L_0x5585744a50 .functor NAND 1, L_0x5585744920, L_0x55857449e0, C4<1>, C4<1>;
+L_0x5585744be0 .functor NAND 1, L_0x5585744810, L_0x5585744810, C4<1>, C4<1>;
+v0x5585743810_0 .net "A", 0 0, v0x5585744390_0;  1 drivers
+v0x55857438d0_0 .net "B", 0 0, v0x5585744480_0;  1 drivers
+v0x5585743990_0 .net "Cout", 0 0, L_0x5585744be0;  alias, 1 drivers
+v0x5585743a60_0 .net "O1", 0 0, L_0x5585744810;  1 drivers
+v0x5585743b20_0 .net "O2", 0 0, L_0x5585744920;  1 drivers
+v0x5585743c30_0 .net "O3", 0 0, L_0x55857449e0;  1 drivers
+v0x5585743cf0_0 .net "Sum", 0 0, L_0x5585744a50;  alias, 1 drivers
+S_0x5585743e30 .scope task, "passTest" "passTest" 2 28, 2 28 0, S_0x55856de150;
+ .timescale -9 -12;
+v0x5585744000_0 .var "actualOut", 1 0;
+v0x55857440e0_0 .var "expectedOut", 1 0;
+v0x55857441c0_0 .var "passed", 7 0;
+v0x55857442b0_0 .var "testType", 120 0;
+TD_HalfAddTest_v.passTest ;
+    %load/vec4 v0x5585744000_0;
+    %load/vec4 v0x55857440e0_0;
+    %cmp/e;
+    %jmp/0xz  T_1.2, 4;
+    %vpi_call 2 33 "$display", "%s passed", v0x55857442b0_0 {0 0 0};
+    %load/vec4 v0x55857441c0_0;
+    %addi 1, 0, 8;
+    %store/vec4 v0x55857441c0_0, 0, 8;
+    %jmp T_1.3;
+T_1.2 ;
+    %vpi_call 2 34 "$display", "%s failed: %d should be %d", v0x55857442b0_0, v0x5585744000_0, v0x55857440e0_0 {0 0 0};
+T_1.3 ;
+    %end;
+    .scope S_0x55856de150;
+T_2 ;
+    %vpi_call 2 56 "$dumpfile", "HalfAddTest_v.vcd" {0 0 0};
+    %vpi_call 2 57 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55856de150 {0 0 0};
+    %end;
+    .thread T_2;
+    .scope S_0x55856de150;
+T_3 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744390_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744480_0, 0, 1;
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v0x5585744720_0, 0, 8;
+    %delay 90000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744390_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744480_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0x5585744550_0;
+    %load/vec4 v0x5585744650_0;
+    %concat/vec4; draw_concat_vec4
+    %store/vec4 v0x5585744000_0, 0, 2;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0x55857440e0_0, 0, 2;
+    %pushi/vec4 3156784, 0, 121;
+    %store/vec4 v0x55857442b0_0, 0, 121;
+    %load/vec4 v0x5585744720_0;
+    %store/vec4 v0x55857441c0_0, 0, 8;
+    %fork TD_HalfAddTest_v.passTest, S_0x5585743e30;
+    %join;
+    %load/vec4 v0x55857441c0_0;
+    %store/vec4 v0x5585744720_0, 0, 8;
+    %delay 90000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744390_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x5585744480_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0x5585744550_0;
+    %load/vec4 v0x5585744650_0;
+    %concat/vec4; draw_concat_vec4
+    %store/vec4 v0x5585744000_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x55857440e0_0, 0, 2;
+    %pushi/vec4 3156785, 0, 121;
+    %store/vec4 v0x55857442b0_0, 0, 121;
+    %load/vec4 v0x5585744720_0;
+    %store/vec4 v0x55857441c0_0, 0, 8;
+    %fork TD_HalfAddTest_v.passTest, S_0x5585743e30;
+    %join;
+    %load/vec4 v0x55857441c0_0;
+    %store/vec4 v0x5585744720_0, 0, 8;
+    %delay 90000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x5585744390_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5585744480_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0x5585744550_0;
+    %load/vec4 v0x5585744650_0;
+    %concat/vec4; draw_concat_vec4
+    %store/vec4 v0x5585744000_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x55857440e0_0, 0, 2;
+    %pushi/vec4 3222320, 0, 121;
+    %store/vec4 v0x55857442b0_0, 0, 121;
+    %load/vec4 v0x5585744720_0;
+    %store/vec4 v0x55857441c0_0, 0, 8;
+    %fork TD_HalfAddTest_v.passTest, S_0x5585743e30;
+    %join;
+    %load/vec4 v0x55857441c0_0;
+    %store/vec4 v0x5585744720_0, 0, 8;
+    %delay 90000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x5585744390_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x5585744480_0, 0, 1;
+    %delay 10000, 0;
+    %load/vec4 v0x5585744550_0;
+    %load/vec4 v0x5585744650_0;
+    %concat/vec4; draw_concat_vec4
+    %store/vec4 v0x5585744000_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x55857440e0_0, 0, 2;
+    %pushi/vec4 3222321, 0, 121;
+    %store/vec4 v0x55857442b0_0, 0, 121;
+    %load/vec4 v0x5585744720_0;
+    %store/vec4 v0x55857441c0_0, 0, 8;
+    %fork TD_HalfAddTest_v.passTest, S_0x5585743e30;
+    %join;
+    %load/vec4 v0x55857441c0_0;
+    %store/vec4 v0x5585744720_0, 0, 8;
+    %delay 90000, 0;
+    %load/vec4 v0x5585744720_0;
+    %store/vec4 v0x5585743540_0, 0, 8;
+    %pushi/vec4 4, 0, 8;
+    %store/vec4 v0x5585719a00_0, 0, 8;
+    %fork TD_HalfAddTest_v.allPassed, S_0x55856de2d0;
+    %join;
+    %end;
+    .thread T_3;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "HalfAddTest.v";
+    "HalfAdd.v";

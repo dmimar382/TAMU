@@ -1,0 +1,9 @@
+"../testbench.sv"	1
+"../InstructionMemory.v"	1
+"../DataMemory.v"	1
+"../RegisterFile.v"	1
+"../NextPCLogic.v"	1
+"../SingleCycleControl.v"	1
+"../design.sv"	1
+"../SignExtender.v"	1
+"../ALU.v"	1

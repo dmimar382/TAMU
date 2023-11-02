@@ -1,0 +1,37 @@
+timestamp=1603680621170
+
+[~A]
+LastVerilogToplevel=ALUTest_v
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*735*2158
+
+[~MFT]
+0=5|0work.mgf|2158|0
+1=3|1work.mgf|1720|0
+3=6|3work.mgf|4705|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c921687d082f9b0825d17dd90c791e500f727
+
+[ALU]
+A/ALU=22|../design.sv|4|1*390
+BinL64/ALU=3*174
+R=../design.sv|4
+SLP=3*1075
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|b3eb40c25b2a3c0379c7730185183eecfc77b9ac3518ad33c068db482d529669
+
+[ALUTest_v]
+A/ALUTest_v=22|../testbench.sv|28|1*1720
+BinL64/ALUTest_v=3*1578
+R=../testbench.sv|28
+SLP=3*4705
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|7a4ec82c4358c9650eb95e0e6321a94f5513491b10e875d8ba26e3c195dd6ee608c78a973be43dc718fc0a44f6b426ca
+
+[~U]
+$root=12|0*0|
+ALU=12|0*182|
+ALUTest_v=12|0*407||0x10

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/block_carry_lookahead_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_carry_lookahead_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/summation_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module summation_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/carry_lookahead_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_lookahead_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/generate_propagate_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module generate_propagate_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/carry_lookahead_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_lookahead_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/cla_16bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_16bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab10/lab10.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/two_one_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_one_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/four_bit_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_bit_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/add_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/four_bit_alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_bit_alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/four_bit_alu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_bit_alu_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/lab6.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

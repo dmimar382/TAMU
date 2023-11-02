@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dab9a3dc-2309-4f7e-9e6e-f39ead3339ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="PA1continue" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="PA1continue" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iLE72S4kxbNvRJzDkwvy4HhimR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PA3" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dab9a3dc-2309-4f7e-9e6e-f39ead3339ea" name="Default Changelist" comment="" />
+      <created>1601678302451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601678302451</updated>
+      <workItem from="1601678305861" duration="7100000" />
+      <workItem from="1601697264469" duration="9842000" />
+      <workItem from="1601843673340" duration="23556000" />
+      <workItem from="1601872116665" duration="6994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="866" y="281" width="506" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601840240100">
+      <screen x="0" y="25" width="1445" height="866" />
+    </state>
+    <state x="866" y="281" width="506" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1445.866@0.25.1445.866" timestamp="1601840240100" />
+    <state x="596" y="265" width="426" height="479" key="FileChooserDialogImpl" timestamp="1601867439598">
+      <screen x="0" y="25" width="1201" height="960" />
+    </state>
+    <state x="596" y="265" width="426" height="479" key="FileChooserDialogImpl/0.25.1201.960@0.25.1201.960" timestamp="1601867439598" />
+    <state x="626" y="110" width="706" height="792" key="find.popup" timestamp="1601703398814">
+      <screen x="0" y="25" width="1920" height="975" />
+    </state>
+    <state x="521" y="107" width="587" height="768" key="find.popup/0.25.1597.946@0.25.1597.946" timestamp="1601684607137" />
+    <state x="626" y="110" width="706" height="792" key="find.popup/0.25.1920.975@0.25.1920.975" timestamp="1601703398814" />
+    <state x="61" y="609" width="920" height="202" key="makefile.clean.confirm.dialog" timestamp="1601678318695">
+      <screen x="0" y="25" width="1597" height="946" />
+    </state>
+    <state x="61" y="609" width="920" height="202" key="makefile.clean.confirm.dialog/0.25.1597.946@0.25.1597.946" timestamp="1601678318695" />
+    <state x="609" y="352" width="402" height="272" key="scopes" timestamp="1601683049793">
+      <screen x="0" y="25" width="1597" height="946" />
+    </state>
+    <state x="609" y="352" width="402" height="272" key="scopes/0.25.1597.946@0.25.1597.946" timestamp="1601683049793" />
+  </component>
+</project>

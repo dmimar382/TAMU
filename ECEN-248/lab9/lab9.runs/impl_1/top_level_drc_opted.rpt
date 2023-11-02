@@ -1,0 +1,41 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct 31 10:49:41 2018
+| Host         : lin12-418cvlb.ece.tamu.edu running 64-bit CentOS Linux release 7.5.1804 (Core)
+| Command      : report_drc
+------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT clk_div0/Count[2]_i_2 is driving clock pin of 3 cells. This could lead to large hold time violations. First few involved cells are:
+    counter/Count_reg[0] {FDCE}
+    counter/Count_reg[1] {FDCE}
+    counter/Count_reg[2] {FDCE}
+
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

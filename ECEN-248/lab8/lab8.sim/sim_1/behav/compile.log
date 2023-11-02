@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/ecen248/lab6/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/lab8/adder_2bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_2bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/lab8/adder_2bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_2bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dmimar382/lab8/lab8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

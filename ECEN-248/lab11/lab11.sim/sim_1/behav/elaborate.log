@@ -1,0 +1,14 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /softwares/Linux/xilinx/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 4d587090633c490e94d1686820335f0c --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot combination_lock_fsm_tb_behav xil_defaultlib.combination_lock_fsm_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port state [/home/ugrads/d/dmimar382/ecen248/lab11/combination_lock_fsm_tb.v:25]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.combination_lock_fsm
+Compiling module xil_defaultlib.combination_lock_fsm_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot combination_lock_fsm_tb_behav

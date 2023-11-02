@@ -1,0 +1,93 @@
+timestamp=1606330667726
+
+[~A]
+LastVerilogToplevel=SingleCycleProcTest_v
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*2862*8237
+
+[~MFT]
+0=12|0work.mgf|8237|0
+1=10|1work.mgf|16846|0
+3=20|3work.mgf|20832|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c921682899aa40a04de834bc6f526d6a86e0e
+
+[ALU]
+A/ALU=22|../ALU.v|4|1*3326
+BinL64/ALU=3*5666
+R=../ALU.v|4
+SLP=3*6526
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|b3eb40c25b2a3c0379c7730185183eec8b5f2ea964bd506018952ad9d7eabb92
+
+[DataMemory]
+A/DataMemory=22|../DataMemory.v|5|1*7786
+BinL64/DataMemory=3*9424
+R=../DataMemory.v|5
+SLP=3*11700
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|ab5b04ae54b0797c38b8547f936232d99426d89c50ff4379bf89bab4c639842d3ddf8deefaf87cf670944119e9e4de21
+
+[InstructionMemory]
+A/InstructionMemory=22|../InstructionMemory.v|8|1*10183
+BinL64/InstructionMemory=3*13935
+R=../InstructionMemory.v|8
+SLP=3*15324
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|b86a443a1d82ec234d09f8a4c7b8cd6b46404b5c54a2301d05949f8e3043a72045a2dc59037f129ec4706a975676f50f
+
+[NextPClogic]
+A/NextPClogic=22|../NextPCLogic.v|3|1*4654
+BinL64/NextPClogic=3*6969
+R=../NextPCLogic.v|3
+SLP=3*7626
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|5ccf4b699a85b41a203874c7571621308a27f8f137664b25a0eda3be565ad291a7d9024ee402c15c58f11a7c3c3002b7
+
+[RegisterFile]
+A/RegisterFile=22|../RegisterFile.v|2|1*5967
+BinL64/RegisterFile=3*7934
+R=../RegisterFile.v|2
+SLP=3*8904
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|22f74543ade67d85359ca455f1aa161036d96cbaa54bbfe1fa4f47ec71d76429a7d507576bb88a5af5e102c6efdb8bc8
+
+[SignExtender]
+A/SignExtender=22|../SignExtender.v|8|1*2063
+BinL64/SignExtender=3*3502
+R=../SignExtender.v|8
+SLP=3*4773
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|b659e2b1a62e191ba7973a42d1e2c3985afc20965b4fa7b36853951d6bea4d343639d2ed33cda6ab688b8dbed560cb32
+
+[SingleCycleProcTest_v]
+A/SingleCycleProcTest_v=22|../testbench.sv|11|1*16846
+BinL64/SingleCycleProcTest_v=3*17892
+R=../testbench.sv|11
+SLP=3*20832
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|26e1494c8d5f31b61ea93787ac3a070e44ac379a9add2e3c04bff7cacf1e540ba1a0e284f5a3105af327fde32405fe43
+
+[control]
+A/control=22|../SingleCycleControl.v|17|1*390
+BinL64/control=3*174
+R=../SingleCycleControl.v|17
+SLP=3*1338
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|f2cabf5e9d8860133c44841e25d9d38726527262ddaa47cb266f3a3c4d9b973afb747ab418124f585d8a2266fb14c946
+
+[singlecycle]
+A/singlecycle=22|../design.sv|12|1*11490
+BinL64/singlecycle=3*16247
+R=../design.sv|12
+SLP=3*17275
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|86fb7921b16653d6c57de71e07d0f8ffd7a1dbd13e76a85e71e572ee1333a93c6c452893fd8c2c0cf12086d0014f45c2
+
+[~U]
+$root=12|0*0|
+ALU=12|0*784|
+DataMemory=12|0*1530|
+InstructionMemory=12|0*1861|
+NextPClogic=12|0*1009|
+RegisterFile=12|0*1275|
+SignExtender=12|0*555|
+SingleCycleProcTest_v=12|0*2447||0x10
+control=12|0*262|
+singlecycle=12|0*2121|
